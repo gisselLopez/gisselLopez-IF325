@@ -73,11 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factura.Designer.vb">
+    <Compile Include="D:\Factura.Designer.vb">
       <DependentUpon>Factura.vb</DependentUpon>
+      <Link>Factura.Designer.vb</Link>
     </Compile>
-    <Compile Include="Factura.vb">
-      <SubType>Form</SubType>
+    <Compile Include="D:\Factura.vb">
+      <Link>Factura.vb</Link>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -102,16 +103,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ValidarBotonYLimpiar.Designer.vb">
+    <Compile Include="D:\ValidarBotonYLimpiar.Designer.vb">
       <DependentUpon>ValidarBotonYLimpiar.vb</DependentUpon>
+      <Link>ValidarBotonYLimpiar.Designer.vb</Link>
     </Compile>
-    <Compile Include="ValidarBotonYLimpiar.vb">
+    <Compile Include="D:\ValidarBotonYLimpiar.vb">
+      <Link>ValidarBotonYLimpiar.vb</Link>
+    </Compile>
+    <Compile Include="Validar con errorProvier.Designer.vb">
+      <DependentUpon>Validar con errorProvier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Validar con errorProvier.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Factura.resx">
+    <EmbeddedResource Include="D:\Factura.resx">
       <DependentUpon>Factura.vb</DependentUpon>
+      <Link>Factura.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -122,8 +131,12 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ValidarBotonYLimpiar.resx">
+    <EmbeddedResource Include="D:\ValidarBotonYLimpiar.resx">
       <DependentUpon>ValidarBotonYLimpiar.vb</DependentUpon>
+      <Link>ValidarBotonYLimpiar.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validar con errorProvier.resx">
+      <DependentUpon>Validar con errorProvier.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
