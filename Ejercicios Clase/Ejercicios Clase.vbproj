@@ -73,19 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor ejercicio clase.Designer.vb">
+      <DependentUpon>CicloFor ejercicio clase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor ejercicio clase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\suma dos valores.Designer.vb">
+      <DependentUpon>suma dos valores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\suma dos valores.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="D:\Factura.Designer.vb">
       <DependentUpon>Factura.vb</DependentUpon>
       <Link>Factura.Designer.vb</Link>
     </Compile>
     <Compile Include="D:\Factura.vb">
       <Link>Factura.vb</Link>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -110,20 +115,25 @@
     <Compile Include="D:\ValidarBotonYLimpiar.vb">
       <Link>ValidarBotonYLimpiar.vb</Link>
     </Compile>
-    <Compile Include="Validar con errorProvier.Designer.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Validar con errorProvier.Designer.vb">
       <DependentUpon>Validar con errorProvier.vb</DependentUpon>
+      <Link>Validar con errorProvier.Designer.vb</Link>
     </Compile>
-    <Compile Include="Validar con errorProvier.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Validar con errorProvier.vb">
       <SubType>Form</SubType>
+      <Link>Validar con errorProvier.vb</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor ejercicio clase.resx">
+      <DependentUpon>CicloFor ejercicio clase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\suma dos valores.resx">
+      <DependentUpon>suma dos valores.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="D:\Factura.resx">
       <DependentUpon>Factura.vb</DependentUpon>
       <Link>Factura.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -135,8 +145,9 @@
       <DependentUpon>ValidarBotonYLimpiar.vb</DependentUpon>
       <Link>ValidarBotonYLimpiar.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="Validar con errorProvier.resx">
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Validar con errorProvier.resx">
       <DependentUpon>Validar con errorProvier.vb</DependentUpon>
+      <Link>Validar con errorProvier.resx</Link>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
