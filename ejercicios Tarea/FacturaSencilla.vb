@@ -115,8 +115,8 @@
         If ChbDescuento.Checked = True Then
             ChbImpuesto.Enabled = False
 
-        ElseIf ChbImpuesto.Enabled = False Then
-            ChbDescuento.Enabled = True
+        ElseIf ChbImpuesto.Enabled = True Then
+            ChbDescuento.Enabled = False
 
 
         End If
