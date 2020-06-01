@@ -172,7 +172,7 @@ Partial Class FacturaSencilla
         '
         'btnCalcular
         '
-        Me.btnCalcular.Location = New System.Drawing.Point(316, 39)
+        Me.btnCalcular.Location = New System.Drawing.Point(393, 75)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(75, 23)
         Me.btnCalcular.TabIndex = 15
@@ -181,7 +181,7 @@ Partial Class FacturaSencilla
         '
         'btnNuevo
         '
-        Me.btnNuevo.Location = New System.Drawing.Point(316, 96)
+        Me.btnNuevo.Location = New System.Drawing.Point(393, 155)
         Me.btnNuevo.Name = "btnNuevo"
         Me.btnNuevo.Size = New System.Drawing.Size(75, 23)
         Me.btnNuevo.TabIndex = 16
@@ -190,7 +190,7 @@ Partial Class FacturaSencilla
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(460, 75)
+        Me.btnSalir.Location = New System.Drawing.Point(393, 113)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(75, 23)
         Me.btnSalir.TabIndex = 17
