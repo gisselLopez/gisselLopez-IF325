@@ -85,6 +85,12 @@
     <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\suma dos valores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Acumulador y contador.Designer.vb">
+      <DependentUpon>Acumulador y contador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acumulador y contador.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="D:\Factura.Designer.vb">
       <DependentUpon>Factura.vb</DependentUpon>
       <Link>Factura.Designer.vb</Link>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\suma dos valores.resx">
       <DependentUpon>suma dos valores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acumulador y contador.resx">
+      <DependentUpon>Acumulador y contador.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="D:\Factura.resx">
       <DependentUpon>Factura.vb</DependentUpon>

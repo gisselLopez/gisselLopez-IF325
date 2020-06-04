@@ -73,17 +73,27 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CicloFor.Designer.vb">
-      <DependentUpon>CicloFor.vb</DependentUpon>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor Tabla.Designer.vb">
+      <DependentUpon>CicloFor Tabla.vb</DependentUpon>
     </Compile>
-    <Compile Include="CicloFor.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor Tabla.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FacturaSencilla.Designer.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\FacturaSencilla.Designer.vb">
       <DependentUpon>FacturaSencilla.vb</DependentUpon>
+      <Link>FacturaSencilla.Designer.vb</Link>
     </Compile>
-    <Compile Include="FacturaSencilla.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\FacturaSencilla.vb">
       <SubType>Form</SubType>
+      <Link>FacturaSencilla.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Calculadora basica.Designer.vb">
+      <DependentUpon>Calculadora basica.vb</DependentUpon>
+      <Link>Calculadora basica.Designer.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Calculadora basica.vb">
+      <SubType>Form</SubType>
+      <Link>Calculadora basica.vb</Link>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -91,6 +101,14 @@
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Formula General.Designer.vb">
+      <DependentUpon>Formula General.vb</DependentUpon>
+      <Link>Formula General.Designer.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Formula General.vb">
+      <SubType>Form</SubType>
+      <Link>Formula General.vb</Link>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -108,22 +126,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="OperacionesBasicas.Designer.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\OperacionesBasicas.Designer.vb">
       <DependentUpon>OperacionesBasicas.vb</DependentUpon>
+      <Link>OperacionesBasicas.Designer.vb</Link>
     </Compile>
-    <Compile Include="OperacionesBasicas.vb">
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\OperacionesBasicas.vb">
+      <SubType>Form</SubType>
+      <Link>OperacionesBasicas.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Pizzeria.Designer.vb">
+      <DependentUpon>Pizzeria.vb</DependentUpon>
+      <Link>Pizzeria.Designer.vb</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Pizzeria.vb">
+      <SubType>Form</SubType>
+      <Link>Pizzeria.vb</Link>
+    </Compile>
+    <Compile Include="SINAGER.Designer.vb">
+      <DependentUpon>SINAGER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SINAGER.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CicloFor.resx">
-      <DependentUpon>CicloFor.vb</DependentUpon>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor Tabla.resx">
+      <DependentUpon>CicloFor Tabla.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FacturaSencilla.resx">
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\FacturaSencilla.resx">
       <DependentUpon>FacturaSencilla.vb</DependentUpon>
+      <Link>FacturaSencilla.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Calculadora basica.resx">
+      <DependentUpon>Calculadora basica.vb</DependentUpon>
+      <Link>Calculadora basica.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Formula General.resx">
+      <DependentUpon>Formula General.vb</DependentUpon>
+      <Link>Formula General.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -131,8 +174,16 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="OperacionesBasicas.resx">
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\OperacionesBasicas.resx">
       <DependentUpon>OperacionesBasicas.vb</DependentUpon>
+      <Link>OperacionesBasicas.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Pizzeria.resx">
+      <DependentUpon>Pizzeria.vb</DependentUpon>
+      <Link>Pizzeria.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SINAGER.resx">
+      <DependentUpon>SINAGER.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
