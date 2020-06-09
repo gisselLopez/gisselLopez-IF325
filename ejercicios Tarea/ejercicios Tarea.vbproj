@@ -95,6 +95,12 @@
       <SubType>Form</SubType>
       <Link>Calculadora basica.vb</Link>
     </Compile>
+    <Compile Include="Empresa.Designer.vb">
+      <DependentUpon>Empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,12 @@
     <Compile Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Formula General.vb">
       <SubType>Form</SubType>
       <Link>Formula General.vb</Link>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -142,10 +154,16 @@
       <SubType>Form</SubType>
       <Link>Pizzeria.vb</Link>
     </Compile>
-    <Compile Include="SINAGER.Designer.vb">
-      <DependentUpon>SINAGER.vb</DependentUpon>
+    <Compile Include="Numeros.Designer.vb">
+      <DependentUpon>Numeros.vb</DependentUpon>
     </Compile>
-    <Compile Include="SINAGER.vb">
+    <Compile Include="Numeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SAR Honduras.Designer.vb">
+      <DependentUpon>SAR Honduras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SAR Honduras.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -161,12 +179,18 @@
       <DependentUpon>Calculadora basica.vb</DependentUpon>
       <Link>Calculadora basica.resx</Link>
     </EmbeddedResource>
+    <EmbeddedResource Include="Empresa.resx">
+      <DependentUpon>Empresa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\Formula General.resx">
       <DependentUpon>Formula General.vb</DependentUpon>
       <Link>Formula General.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -182,11 +206,15 @@
       <DependentUpon>Pizzeria.vb</DependentUpon>
       <Link>Pizzeria.resx</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="SINAGER.resx">
-      <DependentUpon>SINAGER.vb</DependentUpon>
+    <EmbeddedResource Include="Numeros.resx">
+      <DependentUpon>Numeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAR Honduras.resx">
+      <DependentUpon>SAR Honduras.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
