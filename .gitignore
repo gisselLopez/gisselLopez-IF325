@@ -349,3 +349,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /ejercicios Tarea/Calculadora basica.Designer.vb
+/ejercicios Tarea/sinager.vb
+/ejercicios Tarea/sinager.resx
+/ejercicios Tarea/sinager.Designer.vb

@@ -166,6 +166,12 @@
     <Compile Include="SAR Honduras.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="sinager.Designer.vb">
+      <DependentUpon>sinager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sinager.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\..\..\..\..\..\Documents\ENTORNO A PROGRA\CicloFor Tabla.resx">
@@ -211,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SAR Honduras.resx">
       <DependentUpon>SAR Honduras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sinager.resx">
+      <DependentUpon>sinager.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
